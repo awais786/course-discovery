@@ -5,6 +5,7 @@ from course_discovery.settings.shared.test import *
 
 INSTALLED_APPS += [
     'course_discovery.apps.edx_catalog_extensions',
+    "django_migration_linter",
 ]
 
 ALLOWED_HOSTS = ['*']
