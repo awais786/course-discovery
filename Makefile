@@ -156,4 +156,4 @@ install_transifex_client: ## Install the Transifex client
 	git checkout -- LICENSE README.md
 
 migration_linter:
-	python manage.py lintmigrations --settings=credentials.settings.test
+	python manage.py lintmigrations --settings=course_discovery.settings.test
