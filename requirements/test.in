@@ -2,6 +2,7 @@
 
 coverage
 ddt
+django-migration-linter
 edx-lint
 factory-boy
 freezegun
